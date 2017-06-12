@@ -14,6 +14,7 @@ class Comment extends Eloquent
 {
     protected $table = 'comments';
     protected $primaryKey = 'comment_ID';
+    public $timestamps = false;
 
     /**
      * Post relationship
